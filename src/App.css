@@ -1,0 +1,37 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.form_container {
+  margin-top: 5px;
+}
+
+.locations {
+  margin-top: 5px;
+  /* display: flex;
+  flex-wrap: wrap; */
+
+}
+
+.locations_wrapper {
+  display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.locations_wrapper div{
+    width: 17%;
+    text-align: center;
+   
+}
